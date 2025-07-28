@@ -23,7 +23,7 @@ Durante o desenvolvimento deste projeto, foram estudados e implementados os segu
 
 ```bash
 git clone https://github.com/seu-usuario/api-django.git
-cd api-django
+cd -api-django
 ```
 # Crie um ambiente virtual e ative:
 ```
