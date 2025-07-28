@@ -26,27 +26,33 @@ git clone https://github.com/seu-usuario/api-django.git
 cd api-django
 ```
 # Crie um ambiente virtual e ative:
+```
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
-
+```
 # Instale as dependências:
+```
 pip install -r requirements.txt
-
+```
 # Execute as migrações:
+```
 python manage.py migrate
-
-#Inicie o servidor:
+```
+# Inicie o servidor:
+```
 python manage.py runserver
-
-#🚀 Endpoints e Documentação:
+```
+# 🚀 Endpoints e Documentação:
+```
 /swagger/     # Swagger UI
 /redoc/       # ReDoc UI
-
-#✅ Testes
+```
+# ✅ Testes
 Para rodar os testes automatizados:
+```
 python manage.py test
+```
 
-
-#📦 Deploy
+# 📦 Deploy
 O deploy foi realizado utilizando os serviços da AWS. A aplicação está configurada para produção com segurança, CORS e performance.
